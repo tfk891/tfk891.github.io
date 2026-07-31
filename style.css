@@ -840,3 +840,304 @@ footer {
 
 
 }
+
+.about-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+
+
+.about-card h3{
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+    font-size:24px;
+
+}
+
+
+
+.about-card p{
+
+    color:var(--gray);
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.education-item h4{
+
+    margin-bottom:10px;
+
+    color:white;
+
+}
+
+.role{
+
+    color:var(--secondary);
+
+    font-weight:500;
+
+    margin:10px 0;
+
+}
+
+
+
+.experience-list{
+
+    margin-top:20px;
+
+    padding-left:20px;
+
+}
+
+
+
+.experience-list li{
+
+    color:var(--gray);
+
+    margin-bottom:12px;
+
+}
+
+
+
+.project{
+
+    margin-top:25px;
+
+    padding:20px;
+
+    background:rgba(255,255,255,0.05);
+
+    border-radius:15px;
+
+}
+
+
+
+.project h4{
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.project p{
+
+    color:var(--gray);
+
+}
+
+
+
+.project-link{
+
+    display:inline-block;
+
+    margin-top:12px;
+
+    color:var(--secondary);
+
+    transition:.3s;
+
+}
+
+
+
+.project-link:hover{
+
+    color:var(--primary);
+
+}
+
+.skill-card{
+
+    text-align:center;
+
+    min-height:220px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+.skill-card img{
+
+    width:65px;
+
+    height:65px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.skill-card h3{
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.skill-card p{
+
+    color:var(--gray);
+
+    font-size:14px;
+
+}
+
+
+
+.skill-card:hover img{
+
+    transform:scale(1.15);
+
+    transition:.3s;
+
+}
+
+.learning-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+
+
+.timeline .card{
+
+    padding:25px;
+
+}
+
+
+
+.timeline .card h3{
+
+    color:var(--secondary);
+
+    margin-bottom:15px;
+
+}
+
+
+
+.timeline .card p{
+
+    color:var(--gray);
+
+    line-height:1.7;
+
+}
+
+.contact-box{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+
+
+.contact-box h3{
+
+    font-size:30px;
+
+    color:var(--secondary);
+
+    margin-bottom:20px;
+
+}
+
+
+
+.contact-box p{
+
+    color:var(--gray);
+
+    line-height:1.7;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.contact-item{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+.contact-item img{
+
+    width:35px;
+
+    height:35px;
+
+}
+
+
+
+.contact-item a{
+
+    color:white;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+
+
+.contact-item a:hover{
+
+    color:var(--secondary);
+
+}
